@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/zourethe/Workspace/smart-autoclicker/env"
+set -gx VIRTUAL_ENV "/home/zourethe/Workspace/double-click-macro/env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

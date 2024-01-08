@@ -1,4 +1,4 @@
-#!/home/zourethe/Workspace/smart-autoclicker/env/bin/python
+#!/home/zourethe/Workspace/double-click-macro/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

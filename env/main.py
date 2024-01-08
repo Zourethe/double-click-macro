@@ -1,7 +1,7 @@
 '''
                                                     Double Click Macro
 
-    This is the main file of the script, the one that will detect the keys and button inputs and execute the basic actions.
+    This is the main file of the script, the one that will detect the keybind and execute the actions.
 
     Author: Zourethe
     Date: July, 16, 2023
@@ -17,16 +17,24 @@ countL = 0
 countR = 0
 toggle = False
 
+# Terminal interface.
+print("\033[32m{}\033[0m".format("                  Welcome!"))
+print("")
+print("\033[32m{}\033[0m".format("This is a double click macro script, to use it\njust hold the \033[31mMouse5\033[32m button and click. It works\nfor both left and right click."))
+print("")
+print("\033[93m{}\033[0m".format("Script by Zourethe."))
+print("")
+
 # On click function definition.
 def on_click(x, y, button, pressed):
     global countL, countR, toggle
     if button == mouse.Button.button9:
         if toggle == False:
             toggle = True
-            print('Toggled')
+            print("\033[32m{}\033[0m".format("Macro toggled"))
         else:
             toggle = False
-            print('Untoggled')
+            print("\033[31m{}\033[0m".format("Macro untoggled"))
     if button == mouse.Button.left and pressed and toggle:
         countL = countL + 1
         if countL == 2:
