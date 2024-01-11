@@ -18,11 +18,11 @@ countR = 0
 toggle = False
 
 # Terminal interface.
-print("\033[32m{}\033[0m".format("                  Welcome!"))
+print("\033[32m{}\033[0m".format("                  Double Click Macro"))
 print("")
-print("\033[32m{}\033[0m".format("This is a double click macro script, to use it\njust hold the \033[31mMouse5\033[32m button and click. It works\nfor both left and right click."))
+print("\033[0m{}\033[0m".format("This is a double click macro script, to use it\njust hold the \033[31mMouse5\033[0m button and click. It works\nfor both left and right click."))
 print("")
-print("\033[93m{}\033[0m".format("Script by Zourethe."))
+print("\033[0m{}\033[0m".format("Script by Zourethe."))
 print("")
 
 # On click function definition.
